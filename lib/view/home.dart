@@ -28,24 +28,31 @@ class HomeScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: Icon(Icons.apps),
-              title: Text("Row Widget"),
+              leading: Icon(Icons.home),
+              title: Text("Home"),
               onTap: () {
-                debugPrint("TEST OK");
+                debugPrint("TEST ok");
               },
             ),
             ListTile(
               leading: Icon(Icons.apps),
               title: Text("Row Widget"),
               onTap: () {
-                debugPrint("TEST OK");
+                debugPrint("TEST Row");
               },
             ),
             ListTile(
               leading: Icon(Icons.apps),
-              title: Text("List"),
+              title: Text("Column Widget"),
               onTap: () {
-                debugPrint("TEST OK");
+                debugPrint("TEST Column");
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.apps),
+              title: Text("ListView Menu"),
+              onTap: () {
+                debugPrint("TEST ListView");
               },
             ),
             ListTile(
@@ -57,7 +64,7 @@ class HomeScreen extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.credit_card),
-              title: Text("Row Widget"),
+              title: Text("Card and Inkwell"),
               onTap: () {
                 debugPrint("TEST Card2");
               },
